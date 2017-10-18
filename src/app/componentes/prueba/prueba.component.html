@@ -1,0 +1,40 @@
+<div class="ui container grid stackable">
+  <div class="sixteen wide column">
+    <h2 class="ui header dividing green">Pruebas disponible</h2>
+  </div>
+  <table class="ui table blue celled padded" id="tabla_prueba">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Descripcion</th>
+        <th>Fecha de ejecucion</th>
+        <th>class</th>
+        <th>Ejecutar</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Guanajoven</td>
+        <td>Descripcion</td>
+        <td>17/10/17</td>
+        <td>clase 1</td>
+        <td>
+          <div class="ui slider checkbox">
+            <label>Preuab 1</label>
+            <input type="radio" name="selectPrueba" value="id_bd" id="radioPruebaSelect">
+          </div>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="seven wide column">
+    <button class="ui button icon basic green" data-tooltip="Ejecutar test seleccionado" id="btnEjecutar">Ejecutar
+      <i class="share icon"></i>
+    </button>
+    <button class="ui button icon basic blue" data-tooltip="Historial de las ejecucuones" id="btnHistorial">Historial de ejecuciones
+        <i class="share icon"></i>
+      </button>
+  </div>
+</div>

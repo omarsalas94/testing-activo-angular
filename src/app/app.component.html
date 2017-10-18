@@ -1,0 +1,13 @@
+<!--Menu de navegacion-->
+<div class="ui inverted menu">
+  <a class="item" id="menu_inicio" routerLinkActive="active" [routerLink]="['inicio']">Inicio</a>
+  <a class="item" id="menu_crear_test" routerLinkActive="active" [routerLink]="['crear_test']">Crear test</a>
+  <a class="item" id="menu_prueba" routerLinkActive="active" [routerLink]="['prueba']">Prueba</a>
+  <a class="item" id="menu_parametro_nuevo" routerLinkActive="active" [routerLink]="['parametro_nuevo']">Parametro nuevo</a>
+</div>
+<!--Fin menu de navegacion-->
+<!--Contenedor de la pagina-->
+<div>
+    <router-outlet></router-outlet>
+</div>
+<!--Fin contenedor de la pagina-->
